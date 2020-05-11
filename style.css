@@ -12,6 +12,26 @@ body{
   padding: 10px;
 }
 
+a:link {
+  color: hotpink;
+	text-decoration: none;
+}
+
+a:visited {
+  color: hotpink;
+	text-decoration: none;
+}
+
+a:hover {
+  color: #060606;
+	text-decoration: underline;
+}
+
+a:active {
+  color: skyblue;
+	text-decoration: underline;
+}
+
 p{
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 	font-weight: normal;
@@ -111,6 +131,21 @@ div.container {
   border-color: transparent transparent rgba(0, 0, 0, 0.4) transparent;
 }
 
+dt{
+	display: block;
+	font-weight: bold;
+  margin-left: 0;
+  margin-right: 0;
+}
+dd{
+	display: block;
+	font-style: italic;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+	color:#060606;
+}
+
 header{
 	padding: 40px;
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
@@ -132,8 +167,9 @@ article{
 		line-height: 1.5;
     text-align: center;
     width: 100%;
-    position: absolute;
-    top: 200px;
+    position: relative;
+    top: -20px;
+		padding-top: 60px;
     left: 0;
 		z-index: 0;
 		display: block;
